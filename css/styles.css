@@ -1,0 +1,157 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* Download-Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.benefits-icons {
+  color: #ef8172;
+  font-size: 4rem;
+  margin: 4rem 0 1rem 0;
+}
+
+.benefits-icons:hover {
+  color: #ff4c68;
+}
+
+.feature-text {
+  color: #8f8f8f;
+}
+
+.benefit-center {
+  text-align: center;
+}
+
+#features {
+  padding-bottom: 4rem;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Testimonial Section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
+  padding: 40px;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+.cta-text {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 80px;
+}
+
+.footer-icons {
+  padding: 20px;
+}
